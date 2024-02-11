@@ -1,0 +1,21 @@
+{
+  "name": "articles-renderer",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Alex6",
+  "license": "MIT",
+  "scripts": {
+    "render": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.2.5",
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "marked": "^12.0.0",
+    "mustache": "^4.2.0",
+    "yaml": "^2.3.4"
+  }
+}
