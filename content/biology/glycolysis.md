@@ -1,0 +1,222 @@
+# The Glycolysis: How your body process sugar
+> **Important Note:** this article must not be used to diagnose medical issues or as a medical reference,
+> This article is strictly for education and if you think you need medical advices please see with a health professional
+
+> **Note to medical students:** Please remember, what the teacher says is what counts for the finals, you can read this article to help you to understand but be careful!
+
+This article is part of a series about Human Metabolism, check out the other articles here!
+I strongly advise you to read the article about the monosaccharides, so you have the basics about the simple sugars and their representations.
+
+# Introduction
+The sugar metabolism starts with the digestion, the food you've eaten is separated, and the nutrients it contains are separated from the rest.
+Then, some highly specialized cells in your intestine absorb these nutrients so then can be transported in your blood.
+The next stop of our sugar is the cell, one of the many that make your body. The cell will process the sugar to store it or to make energy out of it.
+
+The glycolysis itself does not produce a lot of ATP (the "energy of the cell") but if the glucose is transformed to pyruvate and then to Acetyl-CoA, it can enter the Krebs cycle to form a lot more ATP.
+See the article about the Krebs cycle for details.
+
+# Digestion and absorption
+## From poly- or di- to monosaccharide
+The sugars are, in reality, a large group of different molecules having the same structure. We're going to talk about the ones playing a role in the human metabolism:
+- Starch and glycogen are polysaccharides, in other terms they are polymers: a molecule formed of a simple molecule repeated multiple times, like a chain, here the simple molecule is a monosaccharide (mono = one, poly = multiple, you get the trick?) 
+- Sucrose, lactose and maltose are disaccharides (di = two, can you guess what it's composed of ? Two monosaccharides, easy)
+- Finally, glucose, fructose and galactose are monosaccharides, the ones forming our complex molecules we talked right above.
+
+> You may have heard of the cellulose, this is a monosaccharide but us, Humans, cannot process it, so we're not going to talk about it
+
+Only the monosaccharides can go through the cellular membrane, so our body needs to break down the polysaccharides and disaccharides to simpler monosaccharides to process them.
+To do this, our body has powerful tools: the Enzymes. These molecules are catalyst to reaction, and allow our body to perform molecular operations.
+
+For example, the α-amylase (present in our saliva or in the pancreas) hydrolyzes α 1-4 bonds. 
+The disaccharidases, a group of enzymes (these are present in the intestine, most precisely on the brush border of the enterocytes), break down the disaccharides into monosaccharides. 
+This group includes the following enzymes: the sucrase, the maltase, the isomaltase and the lactase.
+
+## From intestine to blood
+Because cells are separated from their environment with a lipid bilayer, only lipophilic molecules can go through naturally.
+But the sugars are polar and hydrophilic molecules, so they need a carrier molecule to go through the cell membrane.
+
+For the glucose and the galactose, the enterocytes use two carrier proteins:
+- **SGLT1** is a protein with high affinity for glucose. This protein is working actively (it needs energy) against the gradient (from the side with less concentration to the side with the highest concentration) by using the Na⁺ gradient, which is inverted compared to the glucose one. Because it's transporting Na⁺ as well as glucose, it needs a Na⁺/H⁺ pump on the other side to maintain the gradient.
+- **GLUT2**, a protein with low affinity for glucose, allowing this protein to adapt to the glucose concentration. This protein transport the glucose with the gradient (from the side with higher concentration to the side with the less). This one is used to take the glucose out of the cell, into the blood.
+
+So to summarize: SGLT1 takes the glucose and transports it from the intestine lumen inside the enterocyte then GLUT2 transport it from the enterocyte to the blood, simple right?
+![Schematic representation of an enterocyte and his carrier protein](enterocyte.jpg)
+
+## Last stop: the cell
+Once our glucose arrives into the blood, it can move freely due to it being hydrophylic.
+The glucose will travel into all our body and will arrive, via the portal vein, in a crucial place for our metabolism: the liver.
+The liver will absorb between 30% and 40% of the blood sugar, the rest will continue its journey to other cells and organs.
+
+Before we talk about how the liver processes the sugar, let's talk a bit about how our body manages glycolysis
+### When the glucose rate is rising (right after eating)
+This rise will cause our body to increase glycolysis and glycogenesis (in a nutshell: the mechanism used by our body to store sugar).
+To do this, our body will use a hormone, called the Insulin, which is produced by the β cells in the pancreas. Like all hormones, it acts like a chemical signal to all the cells of our body.
+
+A common chronicle disease: type 1 diabetes, is caused by the incapacity of β cells to produce enough, or even produce at all, Insulin. This cause the body to not properly handle sugar and can lead to severe problems if not treated.
+But don't worry, it's a pretty common disease and is treated by manually replacing insulin.
+### When fasting (when you haven't eaten for a while)
+Our body will need glucose, he will produce it by starting gluconeogenesis, a metabolic pathway to produce glucose.
+This phenomenon is started by the presence of a hormone, the glucagon, produced by the α cells of the pancreas.
+
+### Why is glucose so important?
+One of the vital organs you are currently using to read and process what you are reading is a glutton and loves glucose: yes, I'm talking about your brain.
+But because your brain is essential to your survival, he has a trick when fasting, he can replace glucose by the Ketone bodies and work in case of low glucose.
+
+Your red blood cells or erythrocytes also need glucose and cannot replace it by anything else because they don't have mitochondria, so they cannot process oxygen to produce energy.
+
+These are only a few examples of why glucose is a crucial nutrient, and this explain why we need to pay attention to what and when we eat!
+
+## The carrier proteins
+I've already talked about some carrier proteins, especially the ones needed to transport glucose from the intestine to the blood.
+Now let's take a step back, and discover all the carrier proteins needed to transport our glucose in and out the cells.
+I've mentioned earlier the protein "GLUT2", this protein is part of a family: the "GLUT" proteins.
+
+- **GLUT1** exists on the red blood cells. It has a high affinity for glucose, because the RBC needs a lot and a constant amount of glucose to produce energy (no mitochondria, so the glucose is the only income of energy)
+- **GLUT2** exists on the intestine, on the liver, on the pancreas and on the kidneys. It's an insulino-independent protein, meaning that its concentration ignores the level of insuline.
+- **GLUT3** is pretty much the same as GLUT1 but in the brain
+- **GLUT4** exists on the muscles. Its concentration depends on the level of insuline (more insuline = more GLUT4 = more sugar inside the muscle)
+
+To summarize
+
+| Protein name | Localisation                        | Depends on insulin? | Affinity for glucose |
+|--------------|-------------------------------------|---------------------|----------------------|
+| GLUT1        | Red Blood Cells                     |                     | High                 |
+| GLUT2        | Intestine, liver, pancreas, kidneys | No                  | Weak                 |
+| GLUT3        | Brain                               |                     | High                 |
+| GLUT4        | Muscles                             | Yes                 |                      |
+
+In type-2 diabetes (*not the same as type 1*), the cells are less likely to detect the presence of insuline, so GLUT4 isn't expressed and glucose cannot enter the cell.
+It means that people with this disease will have hyperglycemia but the cells cannot use the glucose so the body thinks it needs more glucose, creating a dangerous positive feedback loop.
+
+# The steps of Glycolysis
+Here we are, starting to take a deep dive into the heart of the subject.
+Glycolysis is the metabolic pathway of our body to use glucose, it's also called the Embden-Meyerhoff pathway or the triosephosphate way.
+
+This mechanism is present in all the cells of our body, allowing a little production of ATP.
+Unlike other pathway like the oxydative chain, the glycolysis happens directly in the cytosol instead of inside an organelle like the mitochondria.
+
+Glycolysis produces two molecules of pyruvate from one molecule of glucose.
+You can split this mechanism in two parts:
+- First, the activation by phosphorylation of glucose until fructose-1,6-bisphosphate is formed. This part will consume two ATP.
+- Second, the formation of the triose-phosphates until pyruvate is formed. This part creates two ATP by pyruvate created (so if you understood what I've said until now, we formed four ATP in total).
+
+So if we look at our two parts, we've consumed two ATP and produced four. So we now have two new ATP after processing one molecule of glucose.
+
+Our mechanism has three irreversible reactions, these will be subject to regulations. So what are we waiting for ? Let's dive in!
+## First part: from Glucose to Fructose-1,6-bisphosphate
+> From here, I'll start to write the title in a specific format: P1R1 means part 1 reaction 1. If the molecules are separated by a double arrow (↔) it means the reaction is reversible, if it's a simple arrow (→) then it's irreversible.
+
+### P1R1: Glucose ↔ Glucose-6-phosphate
+So, this is the first reaction of our chain, we're starting with a molecule of glucose and we're making glucose-6-phosphate (G6P).
+If you already know a bit about chemistry, you understood that this step just added a phosphate group on the sixth carbon of our molecule.
+This reaction is performed by the Hexokinase, an enzyme present in all the cells of our body.
+
+This reaction is reversible, but the Hexokinase only works to add the posphate group, so to remove it, the reaction is catalyzed by the glucose-6-phosphatase, another enzyme.
+
+<reaction from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" inhibitors="glucose-6-phosphate"/>
+
+The hexokinase has a high affinity for glucose, allowing it to work very efficiently on very low level of glucose.
+This enzyme is inhibited by the G6P, the product of this reaction, so the reaction stabilizes by itself:
+- Not enough G6P? Due to its high affinity, glucose is used in all cases and G6P is produced
+- Too much G6P? Due to inhibit, the reaction is slowed down.
+
+Wonderful, isn't it?
+
+In some specific tissues, the hexokinase is replaced by another enzyme, it's the case in the liver and the pancreas with the glucokinase.
+Unlike the hexokinase, this enzyme has a low affinity for glucose, so it works best on high concentration of glucose, for example, when the glucose rate in the blood is too high.
+This enzyme is activated by insulin, so right after a meal, your body signals your liver it's time to process the sugar you've just eaten by releasing insulin, triggering this enzyme.
+
+<reaction from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" activators="insulin"/>
+
+### P1R2: Glucose-6-phosphate ↔ Fructose-6-phosphate
+This reaction is an isomerization catalyzed by the glucose-6-phosphate isomerase.
+In a nutshell, we transform our glucose into another monosaccharide, a fructose.
+
+<reaction from="glucose-6-phosphate" to="fructose-6-phosphate" reversible="true" enzyme="glucose-6-phosphate isomerase"/>
+
+### P1R3: Key step to limiting glycolysis
+In this step, we have a separation, a complex mechanism to ensure there is not too much energy created. So two steps: a and b.
+
+#### P1R3a: Fructose-6-phosphate → Fructose-1,6-bisphosphate
+This reaction is similar to the first one, we're just adding a phosphate on the first carbon of our molecule.
+The enzyme of this step is the phospho-fructo-kinase 1 (PFK1). **This reaction is irreversible and subject to important regulations**
+This step gets the phosphate from one ATP, that becomes an ADP after that.
+
+<reaction from="fructose-6-phosphate" to="fructose-1,6-bisphosphate" reversible="false" enzyme="PFK1" inhibitors="citric acid,ATP" activators="fructose-2,6-bisphosphate"/>
+
+**This step is the key-step of the glycolysis**, most of the limiting regulations will be done here.
+This enzyme is inhibited by the citric acid (an important molecule part of the Krebs cycle) and by high amounts of ATP.
+But PFK1 is also activated by Fructose-2,6-bisphosphate.
+
+#### P1R3b: Fructose-6-phosphate ↔ Fructose-2,6-bisphosphate
+Instead of the first one, this one is reversible, and the phosphate is on the second carbon (not the first, may not seem like this, but it's a huge difference).
+This reaction is catalyzed by the phospho-fructo-kinase 2 (PFK2).
+This will produce a Fructose-2,6-bisphosphate, a molecule that can activate PFK1 (from the reaction P1R3a) allowing more glucose to continue the cycle.
+
+<reaction from="fructose-6-phosphate" to="fructose-2,6-bisphosphate" reversible="true" enzyme="PFK2"/>
+
+More precisely, PFK2 can work differently according to its state:
+- If its phosphorylation site is free: it will convert F6P into F2,6-bisP, it's a kinase activity. This state is provoked by the presence of insulin via a complex intra-cellular phosphorylation signaling cascade.
+- If the enzyme is phosphorylated, it will work in the other way, converting F2,6-bisP back into F6P. This state is induced by the presence of glucagon.
+
+#### Conclusion of our third reaction
+
+### Conclusion of the first part
+
+## Second part: the Trioses-Phosphates
+### P2R1: Fructose-1,6-bisphosphate ↔ Glyceraldehyde-3-phosphate and Dihydroxyacetone-phosphate
+This step is a cleavage, our F1,6-bisP (six carbons) will be separated into two different molecules (2x3 carbons).
+This reaction is performed by the fructose-bisphosphate aldolase.
+
+<reaction from="fructose-1,6-bisphosphate" to="dihydroxyacetone-phosphate, glyceraldehyde-3-phosphate" reversible="true" enzyme="fructose-bisphosphate aldolase"/>
+
+The two molecules produced are isomers, the dihydroxyacetone-phosphate is a dead-end of glycolysis, meaning it needs to be converted to glyceraldehyde-3-phosphate to continue the glycolysis.
+An enzyme, the triosephosphate isomerase, can convert the molecules into the other form.
+
+<reaction from="dihydroxyacetone-phosphate" to="glyceraldehyde-3-phosphate" reversible="true" enzyme="triosephosphate isomerase"/>
+
+Because only the glyceraldehyde-3-phosphate will continue the reactions, there is a higher quantity of dihydroxyacetone-phosphate in the cell.
+
+### P2R2: Glyceraldehyde-3-phosphate ↔ 1,3-Bisphosphoglycerate
+And from now on, we're starting to produce energy.
+This reaction produces a NADH, this molecule "holds" energy like the ATP; however, it's more energetic than ATP.
+The reaction is catalyzed by the glyceraldehyde phosphate dehydrogenase, and this reaction is simply a redox.
+
+<reaction from="glyceraldehyde-3-phosphate" to="1,3-bisphosphoglycerate" reversible="true" consumes="NAD⁺, Pi" produces="NADH, H⁺" enzyme="glyceraldehyde phosphate dehydrogenase"/>
+
+### P2R3: 1,3-Bisphosphoglycerate ↔ 3-Phosphoglycerate
+In this step, we're still producing energy by creating an ATP by taking one of our phosphates and adding it to an ADP.
+This action is performed by the 3-phosphoglycerate kinase (kinase because it performs a phosphorylation on our ADP).
+
+<reaction from="1,3-bisphosphoglycerate" to="3-phosphoglycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="glyceraldehyde phosphate dehydrogenase"/>
+
+### P2R4: 3-Phosphoglycerate ↔ 2-phospho-D-glycerate
+In this step, we're just moving our phosphate from the third carbon to the second; the enzyme responsible for this modification is the phosphoglyceromutase.
+
+<reaction from="3-Phosphoglycerate" to="2-phospho-D-glycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="phosphoglyceromutase"/>
+
+### P2R5: 2-phospho-D-glycerate ↔ phosphoenolpyruvate
+Not much happening in this step either, only a bond is modified.
+
+<reaction from="2-phospho-D-glycerate" to="phosphoenolpyruvate" reversible="true" produces="H₂O" enzyme="enolase"/>
+
+### P2R6: Phosphoenolpyruvate → Pyruvate
+The last step. We are producing our last ATP and pyruvate that will then enter the Krebs cycle.
+The reaction is similar to P2R3 and is performed by another kinase: the pyruvate kinase.
+
+<reaction from="phosphoenolpyruvate" to="pyruvate" reversible="false" consumes="ADP" produces="ATP" enzyme="enolase" inhibitors="alanine,ATP,glucagon" activators="fructose-2,6-bisphosphate,insulin"/>
+
+This step is irreversible and therefore is regulated. 
+The ATP and the alanine are inhibiting this reaction (if we already have energy, no need to produce more).
+However, F1,6-bisP activates this reaction to prevent an accumulation of metabolites.
+The kinase is also managed by its phosphorylation site: the glucagon prevent the enzyme to work but insulin releases the site, so the kinase can work.
+
+### Conclusion of the second part
+
+## Conclusion
+We've seen that our first part consumes two ATP. 
+However, during the second part, for a molecule of G3P we are producing two ATP (P2R3 and P2R6) and one NADH (P2R2). 
+And because for one molecule of glucose we have two G3P (due to the cleavage of P2R1), our second part will be executed two times, producing a total of four ATP and two NADH.
+So in total, we've consumed two ATP but produced four ATP, so glycolysis globally produces two ATP and two NADH for one molecule of glucose.
+
+# Pathway Schematic

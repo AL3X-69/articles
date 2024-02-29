@@ -1,0 +1,10 @@
+title: Glycolysis
+description: "Glycolysis: How to make energy from sugar"
+tags: "biology, biochemistry, medical"
+lang: en
+language: English
+molecule-parser: true
+chemistry-tags: true
+files:
+  - enterocyte.jpg
+  - resource:arrows/**.svg

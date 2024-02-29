@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36db536c-b755-4fb2-87bc-bc557afa3058" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/biology/enterocyte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/biology/glycolysis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/biology/glycolysis.md.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/fr/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/maths/vector-field.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/maths/vector-field.md.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/articles-scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/arrows/reaction_rev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/arrows/reaction_rev_cp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/maths/vector-field.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/maths/vector-field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/17216117.mol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/5589.mol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/94762.mol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/9848.mol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/molecules/molecules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reaction.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +58,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cExJOB5LcqHmDeqnKvBbFTqDST" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,9 +71,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.Render and copy.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alex6/IdeaProjects/articles/resources/molecules",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,14 +84,44 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "yarn",
     "npm.render.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "settings.editor.selected.configurable": "discord-application",
     "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "C:\\Users\\alex6\\IdeaProjects\\courses\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/home/alex6/IdeaProjects/articles/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="render" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/molecules" />
+      <recent name="$PROJECT_DIR$/content/biology/molecules" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/arrows" />
+      <recent name="$PROJECT_DIR$/resources/molecules" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.Render and copy">
+    <configuration name="Render and copy" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="cp -r dist/* /var/www/html/articles" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="render" run_configuration_type="js.build_tools.npm" />
+      </method>
+    </configuration>
+    <configuration name="render" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -81,11 +131,10 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.render" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="npm.render" />
+      <item itemvalue="Shell Script.Render and copy" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1707690466719</updated>
       <workItem from="1707690467716" duration="4383000" />
+      <workItem from="1708341741713" duration="3622000" />
+      <workItem from="1708345390518" duration="2262000" />
+      <workItem from="1708500904897" duration="1589000" />
+      <workItem from="1708536319012" duration="14099000" />
+      <workItem from="1708686906868" duration="11382000" />
+      <workItem from="1708808450498" duration="4458000" />
+      <workItem from="1708892044537" duration="4644000" />
+      <workItem from="1708990333596" duration="5955000" />
     </task>
     <servers />
   </component>
