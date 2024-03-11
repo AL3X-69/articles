@@ -1,3 +1,5 @@
+import {ReactionTable} from "components/ReactionTable";
+
 # The Glycolysis: How your body process sugar
 > **Important Note:** this article must not be used to diagnose medical issues or as a medical reference,
 > This article is strictly for education and if you think you need medical advices please see with a health professional
@@ -18,7 +20,7 @@ See the article about the Krebs cycle for details.
 # Digestion and absorption
 ## From poly- or di- to monosaccharide
 The sugars are, in reality, a large group of different molecules having the same structure. We're going to talk about the ones playing a role in the human metabolism:
-- Starch and glycogen are polysaccharides, in other terms they are polymers: a molecule formed of a simple molecule repeated multiple times, like a chain, here the simple molecule is a monosaccharide (mono = one, poly = multiple, you get the trick?) 
+- Starch and glycogen are polysaccharides, in other terms they are polymers: a molecule formed of a simple molecule repeated multiple times, like a chain, here the simple molecule is a monosaccharide (mono = one, poly = multiple, you get the trick?)
 - Sucrose, lactose and maltose are disaccharides (di = two, can you guess what it's composed of ? Two monosaccharides, easy)
 - Finally, glucose, fructose and galactose are monosaccharides, the ones forming our complex molecules we talked right above.
 
@@ -27,8 +29,8 @@ The sugars are, in reality, a large group of different molecules having the same
 Only the monosaccharides can go through the cellular membrane, so our body needs to break down the polysaccharides and disaccharides to simpler monosaccharides to process them.
 To do this, our body has powerful tools: the Enzymes. These molecules are catalyst to reaction, and allow our body to perform molecular operations.
 
-For example, the α-amylase (present in our saliva or in the pancreas) hydrolyzes α 1-4 bonds. 
-The disaccharidases, a group of enzymes (these are present in the intestine, most precisely on the brush border of the enterocytes), break down the disaccharides into monosaccharides. 
+For example, the α-amylase (present in our saliva or in the pancreas) hydrolyzes α 1-4 bonds.
+The disaccharidases, a group of enzymes (these are present in the intestine, most precisely on the brush border of the enterocytes), break down the disaccharides into monosaccharides.
 This group includes the following enzymes: the sucrase, the maltase, the isomaltase and the lactase.
 
 ## From intestine to blood
@@ -113,7 +115,7 @@ This reaction is performed by the Hexokinase, an enzyme present in all the cells
 
 This reaction is reversible, but the Hexokinase only works to add the posphate group, so to remove it, the reaction is catalyzed by the glucose-6-phosphatase, another enzyme.
 
-<reaction from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" inhibitors="glucose-6-phosphate"/>
+<ReactionTable from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" inhibitors="glucose-6-phosphate"/>
 
 The hexokinase has a high affinity for glucose, allowing it to work very efficiently on very low level of glucose.
 This enzyme is inhibited by the G6P, the product of this reaction, so the reaction stabilizes by itself:
@@ -126,13 +128,13 @@ In some specific tissues, the hexokinase is replaced by another enzyme, it's the
 Unlike the hexokinase, this enzyme has a low affinity for glucose, so it works best on high concentration of glucose, for example, when the glucose rate in the blood is too high.
 This enzyme is activated by insulin, so right after a meal, your body signals your liver it's time to process the sugar you've just eaten by releasing insulin, triggering this enzyme.
 
-<reaction from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" activators="insulin"/>
+<ReactionTable from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" activators="insulin"/>
 
 ### P1R2: Glucose-6-phosphate ↔ Fructose-6-phosphate
 This reaction is an isomerization catalyzed by the glucose-6-phosphate isomerase.
 In a nutshell, we transform our glucose into another monosaccharide, a fructose.
 
-<reaction from="glucose-6-phosphate" to="fructose-6-phosphate" reversible="true" enzyme="glucose-6-phosphate isomerase"/>
+<ReactionTable from="glucose-6-phosphate" to="fructose-6-phosphate" reversible="true" enzyme="glucose-6-phosphate isomerase"/>
 
 ### P1R3: Key step to limiting glycolysis
 In this step, we have a separation, a complex mechanism to ensure there is not too much energy created. So two steps: a and b.
@@ -142,7 +144,7 @@ This reaction is similar to the first one, we're just adding a phosphate on the 
 The enzyme of this step is the phospho-fructo-kinase 1 (PFK1). **This reaction is irreversible and subject to important regulations**
 This step gets the phosphate from one ATP, that becomes an ADP after that.
 
-<reaction from="fructose-6-phosphate" to="fructose-1,6-bisphosphate" reversible="false" enzyme="PFK1" inhibitors="citric acid,ATP" activators="fructose-2,6-bisphosphate"/>
+<ReactionTable from="fructose-6-phosphate" to="fructose-1,6-bisphosphate" reversible="false" enzyme="PFK1" inhibitors="citric acid,ATP" activators="fructose-2,6-bisphosphate"/>
 
 **This step is the key-step of the glycolysis**, most of the limiting regulations will be done here.
 This enzyme is inhibited by the citric acid (an important molecule part of the Krebs cycle) and by high amounts of ATP.
@@ -153,7 +155,7 @@ Instead of the first one, this one is reversible, and the phosphate is on the se
 This reaction is catalyzed by the phospho-fructo-kinase 2 (PFK2).
 This will produce a Fructose-2,6-bisphosphate, a molecule that can activate PFK1 (from the reaction P1R3a) allowing more glucose to continue the cycle.
 
-<reaction from="fructose-6-phosphate" to="fructose-2,6-bisphosphate" reversible="true" enzyme="PFK2"/>
+<ReactionTable from="fructose-6-phosphate" to="fructose-2,6-bisphosphate" reversible="true" enzyme="PFK2"/>
 
 More precisely, PFK2 can work differently according to its state:
 - If its phosphorylation site is free: it will convert F6P into F2,6-bisP, it's a kinase activity. This state is provoked by the presence of insulin via a complex intra-cellular phosphorylation signaling cascade.
@@ -168,12 +170,12 @@ More precisely, PFK2 can work differently according to its state:
 This step is a cleavage, our F1,6-bisP (six carbons) will be separated into two different molecules (2x3 carbons).
 This reaction is performed by the fructose-bisphosphate aldolase.
 
-<reaction from="fructose-1,6-bisphosphate" to="dihydroxyacetone-phosphate, glyceraldehyde-3-phosphate" reversible="true" enzyme="fructose-bisphosphate aldolase"/>
+<ReactionTable from="fructose-1,6-bisphosphate" to="dihydroxyacetone-phosphate, glyceraldehyde-3-phosphate" reversible="true" enzyme="fructose-bisphosphate aldolase"/>
 
 The two molecules produced are isomers, the dihydroxyacetone-phosphate is a dead-end of glycolysis, meaning it needs to be converted to glyceraldehyde-3-phosphate to continue the glycolysis.
 An enzyme, the triosephosphate isomerase, can convert the molecules into the other form.
 
-<reaction from="dihydroxyacetone-phosphate" to="glyceraldehyde-3-phosphate" reversible="true" enzyme="triosephosphate isomerase"/>
+<ReactionTable from="dihydroxyacetone-phosphate" to="glyceraldehyde-3-phosphate" reversible="true" enzyme="triosephosphate isomerase"/>
 
 Because only the glyceraldehyde-3-phosphate will continue the reactions, there is a higher quantity of dihydroxyacetone-phosphate in the cell.
 
@@ -182,31 +184,31 @@ And from now on, we're starting to produce energy.
 This reaction produces a NADH, this molecule "holds" energy like the ATP; however, it's more energetic than ATP.
 The reaction is catalyzed by the glyceraldehyde phosphate dehydrogenase, and this reaction is simply a redox.
 
-<reaction from="glyceraldehyde-3-phosphate" to="1,3-bisphosphoglycerate" reversible="true" consumes="NAD⁺, Pi" produces="NADH, H⁺" enzyme="glyceraldehyde phosphate dehydrogenase"/>
+<ReactionTable from="glyceraldehyde-3-phosphate" to="1,3-bisphosphoglycerate" reversible="true" consumes="NAD⁺, Pi" produces="NADH, H⁺" enzyme="glyceraldehyde phosphate dehydrogenase"/>
 
 ### P2R3: 1,3-Bisphosphoglycerate ↔ 3-Phosphoglycerate
 In this step, we're still producing energy by creating an ATP by taking one of our phosphates and adding it to an ADP.
 This action is performed by the 3-phosphoglycerate kinase (kinase because it performs a phosphorylation on our ADP).
 
-<reaction from="1,3-bisphosphoglycerate" to="3-phosphoglycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="glyceraldehyde phosphate dehydrogenase"/>
+<ReactionTable from="1,3-bisphosphoglycerate" to="3-phosphoglycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="glyceraldehyde phosphate dehydrogenase"/>
 
 ### P2R4: 3-Phosphoglycerate ↔ 2-phospho-D-glycerate
 In this step, we're just moving our phosphate from the third carbon to the second; the enzyme responsible for this modification is the phosphoglyceromutase.
 
-<reaction from="3-Phosphoglycerate" to="2-phospho-D-glycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="phosphoglyceromutase"/>
+<ReactionTable from="3-Phosphoglycerate" to="2-phospho-D-glycerate" reversible="true" consumes="ADP" produces="ATP" enzyme="phosphoglyceromutase"/>
 
 ### P2R5: 2-phospho-D-glycerate ↔ phosphoenolpyruvate
 Not much happening in this step either, only a bond is modified.
 
-<reaction from="2-phospho-D-glycerate" to="phosphoenolpyruvate" reversible="true" produces="H₂O" enzyme="enolase"/>
+<ReactionTable from="2-phospho-D-glycerate" to="phosphoenolpyruvate" reversible="true" produces="H₂O" enzyme="enolase"/>
 
 ### P2R6: Phosphoenolpyruvate → Pyruvate
 The last step. We are producing our last ATP and pyruvate that will then enter the Krebs cycle.
 The reaction is similar to P2R3 and is performed by another kinase: the pyruvate kinase.
 
-<reaction from="phosphoenolpyruvate" to="pyruvate" reversible="false" consumes="ADP" produces="ATP" enzyme="enolase" inhibitors="alanine,ATP,glucagon" activators="fructose-2,6-bisphosphate,insulin"/>
+<ReactionTable from="phosphoenolpyruvate" to="pyruvate" reversible="false" consumes="ADP" produces="ATP" enzyme="enolase" inhibitors="alanine,ATP,glucagon" activators="fructose-2,6-bisphosphate,insulin"/>
 
-This step is irreversible and therefore is regulated. 
+This step is irreversible and therefore is regulated.
 The ATP and the alanine are inhibiting this reaction (if we already have energy, no need to produce more).
 However, F1,6-bisP activates this reaction to prevent an accumulation of metabolites.
 The kinase is also managed by its phosphorylation site: the glucagon prevent the enzyme to work but insulin releases the site, so the kinase can work.
@@ -214,8 +216,8 @@ The kinase is also managed by its phosphorylation site: the glucagon prevent the
 ### Conclusion of the second part
 
 ## Conclusion
-We've seen that our first part consumes two ATP. 
-However, during the second part, for a molecule of G3P we are producing two ATP (P2R3 and P2R6) and one NADH (P2R2). 
+We've seen that our first part consumes two ATP.
+However, during the second part, for a molecule of G3P we are producing two ATP (P2R3 and P2R6) and one NADH (P2R2).
 And because for one molecule of glucose we have two G3P (due to the cleavage of P2R1), our second part will be executed two times, producing a total of four ATP and two NADH.
 So in total, we've consumed two ATP but produced four ATP, so glycolysis globally produces two ATP and two NADH for one molecule of glucose.
 

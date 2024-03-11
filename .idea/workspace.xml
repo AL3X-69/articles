@@ -4,38 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36db536c-b755-4fb2-87bc-bc557afa3058" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/content/biology/enterocyte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/biology/glycolysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/biology/glycolysis.md.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/fr/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/maths/vector-field.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/maths/vector-field.md.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/articles-scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/arrows/reaction_rev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/arrows/reaction_rev_cp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/maths/vector-field.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/maths/vector-field.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/17216117.mol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/5589.mol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/94762.mol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/9848.mol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/molecules/molecules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reaction.mustache" afterDir="false" />
+    <list default="true" id="36db536c-b755-4fb2-87bc-bc557afa3058" name="Changes" comment="Added glycolysis.md and chemical parsing">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/biology/glycolysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/biology/glycolysis.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,30 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.Render and copy.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alex6/IdeaProjects/articles/resources/molecules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "yarn",
-    "npm.render.executor": "Run",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "settings.editor.selected.configurable": "discord-application",
-    "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/home/alex6/IdeaProjects/articles/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.Render and copy.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex6/IdeaProjects/articles/resources/molecules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.render.executor&quot;: &quot;Run&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/alex6/IdeaProjects/articles/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/molecules" />
@@ -98,9 +70,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/arrows" />
       <recent name="$PROJECT_DIR$/resources/molecules" />
-      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.Render and copy">
@@ -153,7 +125,20 @@
       <workItem from="1708808450498" duration="4458000" />
       <workItem from="1708892044537" duration="4644000" />
       <workItem from="1708990333596" duration="5955000" />
+      <workItem from="1709243271262" duration="703000" />
+      <workItem from="1709741533852" duration="106000" />
+      <workItem from="1709741643220" duration="19000" />
+      <workItem from="1709818702742" duration="1823000" />
     </task>
+    <task id="LOCAL-00001" summary="Added glycolysis.md and chemical parsing">
+      <option name="closed" value="true" />
+      <created>1709243827429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709243827429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added glycolysis.md and chemical parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added glycolysis.md and chemical parsing" />
   </component>
 </project>
