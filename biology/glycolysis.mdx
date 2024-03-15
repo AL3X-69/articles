@@ -1,4 +1,5 @@
-import {ReactionTable} from "components/ReactionTable";
+import ReactionTable from "components/ReactionTable";
+import enterocyte from "./enterocyte.jpg";
 
 # Glycolysis: How the Human body uses sugar to make energy
 > **Important Note:** this article must not be used to diagnose medical issues or as a medical reference,
@@ -42,7 +43,7 @@ For the glucose and the galactose, the enterocytes use two carrier proteins:
 - **GLUT2**, a protein with low affinity for glucose, allowing this protein to adapt to the glucose concentration. This protein transport the glucose with the gradient (from the side with higher concentration to the side with the less). This one is used to take the glucose out of the cell, into the blood.
 
 So to summarize: SGLT1 takes the glucose and transports it from the intestine lumen inside the enterocyte then GLUT2 transport it from the enterocyte to the blood, simple right?
-![Schematic representation of an enterocyte and his carrier protein](enterocyte.jpg)
+<img src={enterocyte} alt="An enterocyte schema with his carrer proteins"/>
 
 ## Last stop: the cell
 Once our glucose arrives into the blood, it can move freely due to it being hydrophylic.
@@ -115,7 +116,7 @@ This reaction is performed by the Hexokinase, an enzyme present in all the cells
 
 This reaction is reversible, but the Hexokinase only works to add the posphate group, so to remove it, the reaction is catalyzed by the glucose-6-phosphatase, another enzyme.
 
-<ReactionTable from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP/ADP" inhibitors="glucose-6-phosphate"/>
+<ReactionTable from="glucose" to="glucose-6-phosphate" reversible="true" enzyme="hexokinase" enzyme_b="glucose-6-phosphate" uses="ATP" produces="ADP" inhibitors="glucose-6-phosphate"/>
 
 The hexokinase has a high affinity for glucose, allowing it to work very efficiently on very low level of glucose.
 This enzyme is inhibited by the G6P, the product of this reaction, so the reaction stabilizes by itself:
