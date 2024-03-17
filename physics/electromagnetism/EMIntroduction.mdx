@@ -1,0 +1,64 @@
+import gravity from "./gravity.png";
+
+# Electromagnetism: Introduction
+Today we talk about a huge chunk of Physics: the Electromagnetism. You may already have heard this term as the EMR
+(Electromagnetic Radiation) is responsible of a lot of things in our universe, and so in our everyday lives.
+In this series of articles, I'm gonna explain everything you have to know about this subject and we will even solve some
+exercises together! Maybe you are an experienced physics student or just someone curious, anyway these articles are for
+you and I will try to be beginner friendly.
+
+## Blibliography
+I used my knowledge to write these articles, but I also used some books that I highly recommend you to check out if you
+want to dig deeper:
+- [Feynman Lectures about Electromagnetism](https://www.feynmanlectures.caltech.edu/II_01.html) (**These notes are an incredible work and the basis of all my articles on the subject**)
+
+> Note to my english readers: Because I'm french, I've read the french versions of these books, things may differ
+between the two versions
+
+I also used the notes I've taken from my university classes, so I want to thank the Pr. P. Kleimann (PhD),
+Pr. S.M. Perisanu (PhD) and Pr. T. Biben (PhD) from the Claude Bernard University of Lyon for their work on the classes
+I've participated (UEs GEP1000E and PHY2016L).
+
+## An analogy to start our journey
+If you've done a little bit of physics or astronomy, you should already know the gravitational force,
+the force that keep our feet on the ground and make the Earth spin around the Sun. This force is defined by:
+$$
+    \vec{F_{A/B}}=G\frac{m_Am_B}{d^2}\vec{u}
+$$
+With $F_{A/B}$ being the force applied on the object B by object A in Newtons (N), G the gravitational constant in
+Newtons times square metres per square kilograms ($N.m^2.kg^{-2}$), $m_A$ and $m_B$, respectively, the mass of object A
+and object B in kilograms (kg), d the distance between A and B and finally $\vec u$ the unit vector, having for origin B
+for magnitude 1 and going from B to A. We can represent of all these on a schematic:
+<img src={gravity} width={700} alt="Schematic of the gravitational force"/>
+As we can see on the equation, if we double the distance the force is divided by four because of the square. But in
+order of this force to work, we need objects with huge mass like a planet or a star, this force does not apply to
+object of our scale. So you may ask yourselves "But what holds atoms together to form matter?",
+because gravitational force is weak we'll see that another force, very similar to the gravitational force but much
+stronger takes place on much smaller entities: This "strong" force is the Electric Force. Although theses forces are very similar, there a few differences.
+
+First this new force, unlike gravity, can be attractive or repulsive and it depends of the physical nature of our objects,
+because we are now considering the polarity of our entities: the electric charge. And we can observe the following behavior: two object with the same polarity
+repulse themselves and two objects with different polarity attract themselves. The electrical charge is often named q and
+mesured in Coulombs (C). We define this new force with this equation, also called the Coulomb's law:
+$$
+    \vec{F_e}=\frac{q_Aq_B}{4\pi\varepsilon_0d^2}\vec u
+$$
+As we can see, if we compare it to the gravitational equation, the mass has been replaced by $q_a$ and $q_b$,
+the two electrical charges of our entities A and B. You'll also notice a new constant $\varepsilon_0$, this one is
+called the vacuum permittivity and is mesured in Farad per meters ($F.m^{-1}$). This constant is only valid in the
+vacuum, meaning our equation only works in the vacuum. More precisely, this law isn't very useful because its limited
+to the interaction between two simple charges in the vacuum. But don't worry we'll see in the next articles more ways to
+find how complex charge interact together.
+
+## The General Principle of Electromagnetism
+By experimenting, we found that the force, on a given charge, acts differently depending on its position in space and its
+speed and only these parameters applied to this specific charge. Meaning that this force is independant of other charges
+floating around. So we can define our force in another way:
+$$
+    \vec F = q(\vec E+\vec v\wedge\vec B)
+$$
+
+We see here two new variables we never encountered before: $\vec E$ and $\vec B$. These variables are vector fields, the
+first one is the Electrical Field and the second is the Magnetic Field. These two fields are the basis of all the other
+equations we'll see next, so fasten your seatbelt, because we're gonna study the Electrical Field in the following
+article: Electrostatics Part 1.
