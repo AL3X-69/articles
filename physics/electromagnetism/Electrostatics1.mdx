@@ -1,0 +1,99 @@
+As we've seen in the introduction, our equations works with two major vector fields: the electrical field $\vec E$ and
+the Magnetic Field $\vec B$. Because we're using these vector fields, we need to use new mathematical tools to solve
+our equations.
+# Differential Calculus of Vector Fields
+## Reminder: Vector Algebra
+If you have followed any basic mathematical or physics class, you should already know what I'm gonna talk about, but
+just in case you forgot I'm gonna talk about the algebra of vectors. A vector is a geometric object defined by a
+magnitude (also called length) and a direction. We can perform on them different mathematical operations, like we do
+with numbers with the addition and the multiplication. Let's define a vector called $\vec v$ and a real number a.
+
+### Vector negation, addition and soustraction
+We can negate our vector by just inverting the direction. Then we can add together multiple vectors, the result is just
+a vector starting from the origin of vector a and going to the end of the path formed by our vectors.
+![Addition of vectors](https://upload.wikimedia.org/wikipedia/commons/2/28/Vector_addition.svg "Addition of vectors")
+
+### Scalar multiplication
+We can multiply our vector by a scalar, here and in the following articles a scalar is just a real number, i.e.
+$a\in\mathbb{R}$. The result of this operation is just a vector having its magnitude multiplied by our scalar, i.e. the
+new magnitude is equal to $a\times||\vec v||$/
+<img alt="Scalar multiplication"
+     className="invert"
+     src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Scalar_multiplication_by_r%3D3.svg"
+     title="Scalar multiplication"/>
+
+### Dot product
+There is two way to make the product of two vectors, the first one is the dot product, written $$\vec u\cdot\vec v$$.
+It is defined by:
+$$
+    \vec u\cdot\vec v=||\vec u||||\vec v||\cos\theta
+$$
+This product uses the angle between our two vectors ($\theta$), if the vectors have the same direction, then $\theta=0$
+and $\cos\theta=1$ and our dot product is only the product of the magnitude. If the vectors have opposite directions,
+then $\theta=\pi=180°$ and $\cos\theta=-1$, so our dot product is the negated magnitude product. You can also note that
+if our vectors are perpendicular (i.e. $\theta=\pm\frac{\pi}{2}=\pm90°$) then our dot product is null, meaning this
+operation can be a great tool to find if two vectors are perpendicular or not. The result of this product is a scalar
+(a real number in our case). We can also use this equation to find the dot product:
+$$
+    \vec u\cdot\vec v=u_xv_x+u_yv_y+u_zv_z
+$$
+
+### Cross product
+This product is only useful when working on a 3 dimensional space. It is defined the following way (but this equation
+is not used often):
+$$
+    \vec u\wedge\vec v=||\vec u||||\vec v||\sin(\theta)\vec n
+$$
+We can see that, contrary to the dot product, the result isn't a scalar but another vector. We're also using a vector
+called $\vec n$, this is the normal vector: a unit vector perpendicular to both a and b and with a direction defined by
+the right hand rule (we're gonna talk about this rule later). The sinus makes our product behave at the opposite of the
+dot product on the special angles: when the vectors have the same or opposite direction the dot product is the null
+vector and if they are perpendicular then the magnitude of the product is just and b magnitudes product. The resulting
+vector can also be found using:
+$$
+    \vec u\wedge\vec v=\begin{pmatrix}
+        u_x\\
+        u_y\\
+        u_z\\
+    \end{pmatrix}\wedge\begin{pmatrix}
+        v_x\\
+        v_y\\
+        v_z\\
+    \end{pmatrix}=\begin{pmatrix}
+        u_yv_z-u_zv_y\\
+        u_zv_x-u_xv_z\\
+        u_xv_y-u_yv_x\\
+    \end{pmatrix}
+$$
+
+## Vector Field Calculus
+We're gonna talk about three different operators used to permorm differential calculus on vector fields.
+> Multiple notations exists for these operators, I will wrote all of them the first time but after I'll only use the
+> $\vec\nabla$ operator.
+
+Let's define a vector field called $\vec A$ defined in $\mathbb{R}^3$ by:
+$$
+    \vec A=\begin{pmatrix}A_x\\A_y\\A_z\end{pmatrix};\quad(A_x, A_y, A_z)\in\mathbb{R}^3
+$$
+
+### Divergence
+The divergence is the first operator we'll see, it's the simplest of them all, it's just the vector field having for
+coordinates the derivative of the initial vector field coordinates:
+$$
+\vec{\text{div}}\vec A=\vec\nabla\vec A=\nabla\vec A=\begin{pmatrix}
+\frac{\partial A_x}{\partial x}\\
+\frac{\partial A_y}{\partial y}\\
+\frac{\partial A_z}{\partial z}\\
+\end{pmatrix}
+$$
+
+### Gradient
+The gradient is similar to the divergence, the difference is that instead of having a vector field as a result we have a
+scalar. We're just summing together the derivative of the coordinates, like this:
+$$
+\vec{\text{grad}}\vec A=\vec\nabla\cdot\vec A=\nabla\cdot\vec A=\frac{\partial A_x}{\partial x}
++\frac{\partial A_y}{\partial y}+\frac{\partial A_z}{\partial z}
+$$
+
+# Resources used and licenses
+- Scalar multiplication svg by [Silly Rabbit](https://en.wikipedia.org/wiki/User:Silly_rabbit) at the English Wikipedia and is under the [CC BY-SA 3.0 DEED](https://creativecommons.org/licenses/by-sa/3.0/deed.en) license.
