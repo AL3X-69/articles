@@ -80,7 +80,7 @@ $$
 The divergence is the first operator we'll see, it's the simplest of them all, it's just the vector field having for
 coordinates the derivative of the initial vector field coordinates:
 $$
-\vec{\text{div}}\vec A=\vec\nabla\vec A=\nabla\vec A=\begin{pmatrix}
+\vec{\text{div }}\vec A=\vec\nabla\vec A=\nabla\vec A=\begin{pmatrix}
 \frac{\partial A_x}{\partial x}\\
 \frac{\partial A_y}{\partial y}\\
 \frac{\partial A_z}{\partial z}\\
@@ -91,8 +91,96 @@ $$
 The gradient is similar to the divergence, the difference is that instead of having a vector field as a result we have a
 scalar. We're just summing together the derivative of the coordinates, like this:
 $$
-\vec{\text{grad}}\vec A=\vec\nabla\cdot\vec A=\nabla\cdot\vec A=\frac{\partial A_x}{\partial x}
+\vec{\text{grad }}\vec A=\vec\nabla\cdot\vec A=\nabla\cdot\vec A=\frac{\partial A_x}{\partial x}
 +\frac{\partial A_y}{\partial y}+\frac{\partial A_z}{\partial z}
+$$
+
+### Curl
+The curl operator is by far the most complicated to understand of them all. But don't worry I'll keep things simple.
+The curl is used to describe the tendency a vector field has to spin around a point.
+For example, in a tornado, the wind is turning around the center, so if we would use the curl operator, we would find
+a non-null value. This operator is also heavily used in fluid mechanics.
+$$
+\vec{\text{rot }}\vec A=\vec\nabla\wedge\vec A=\nabla\wedge\vec A=\begin{pmatrix}
+\frac{\partial}{\partial x}\\
+\frac{\partial}{\partial y}\\
+\frac{\partial}{\partial z}\\
+\end{pmatrix}\wedge\begin{pmatrix}
+A_x\\
+A_y\\
+A_z\\
+\end{pmatrix}=\begin{pmatrix}
+\frac{\partial A_y}{\partial z}-\frac{\partial A_z}{\partial y}\\
+\frac{\partial A_z}{\partial x}-\frac{\partial A_x}{\partial z}\\
+\frac{\partial A_x}{\partial y}-\frac{\partial A_y}{\partial x}\\
+\end{pmatrix}
+$$
+
+# The Electric Field
+## Maxwell's equations in electrostatics
+In electromagnetism, there is a set of equations that are essential: The Maxwell equations.
+They describe how the electric and magnetic fields interacts. Here they are in their full form:
+$$
+\begin{gather*}
+\vec\nabla\cdot\vec E=\frac{\rho}{\varepsilon_0}\\
+\vec\nabla\wedge\vec E=-\frac{\partial\vec B}{\partial t}\\
+\vec\nabla\cdot\vec B=0\\
+\vec\nabla\wedge\vec B=\frac{1}{c^2}(\frac{\partial\vec E}{\partial t}+\frac{\vec j}{\varepsilon_0})
+\end{gather*}
+$$
+At first glance, this set of equations may intimidate you, but don't worry we're starting off with electrostatics.
+In electrostatics, we consider that the electric and magnetic field are constant in time and therefore does not depends
+on time. This little trick allows us to write $\frac{\partial\vec E}{\partial t}=\frac{\partial\vec B}{\partial t}=0$,
+this is the **static** case. So we can rewrite our equations like this:
+$$
+\begin{gather}
+\vec\nabla\cdot\vec E=\frac{\rho}{\varepsilon_0}\\
+\vec\nabla\wedge\vec E=0\\
+\vec\nabla\cdot\vec B=0\\
+\vec\nabla\wedge\vec B=\frac{1}{c^2}\frac{\vec j}{\varepsilon_0}
+\end{gather}
+$$
+## From the Coulomb law to the Electric Field
+Remember the coulomb's law we talked about in the introduction?
+$$
+    \vec{F_1}=\frac{q_1q_2}{4\pi\varepsilon_0r^2}\vec{u_{12}}=-\vec{F_2}
+$$
+We're gonna introduce the idea of an electric field, showing the interactions of other charge on a point M.
+So for example, with only one other charge q, we just need to divide the Coulomb law by $q_1$ and we obtain this:
+$$
+    \vec E(M)=\frac{q_2}{4\pi\varepsilon_0r^2}\vec u
+$$
+But how what can we use, when we have more than 1 other charge in our space ? To answer this we can use integrals to
+sum all of the charge in the space. We define the distribution of our charge as a charge density, written as
+$\rho(x, y, z)$, now if we want to sum all of our charges in our 3-dimensional space we can write our field as:
+$$
+\vec E(m)=\iiint_V \frac{\rho d^3V}{4\pi\varepsilon_0r^2}\vec u=\frac{1}{4\pi\varepsilon_0}\iiint_V\frac{\rho d^3V}{r^2}\vec{u}
+$$
+Note that we can't extract r from the integral because the distance to M change as we "move" inside our volume with the
+integral.
+## The flux of $\vec E$
+If you are familiar with calculus, you must know that an integral require particular conditions to be met in order
+to be solvable, making our equation hard to use in some cases.
+
+To solve this problem that we will focus on a little trick: imagine a 3D space, inside reside an electric field E.
+Now imagine a closed surface inside this space, can we calculate the amount of electric field going through? The answer
+is **Yes we can!** First we're gonna define this "amount" of Electric Field as the Electric Flux, and we're gonna set
+two rule, a vector going through our surface with the same direction of the normal vector of our surface $\vec{dS}$ is
+counted as positive, and a vector going in the other direction will be counted as negative.
+
+The surface we use can take many forms, as long as it a closed surface. Then we can express this flux using this
+equation:
+$$
+\Phi=\oiint_S\vec E\cdot d\vec S
+$$
+
+For example, lets take a charge q in space, we
+surround it with a spherical surface S
+
+## The Maxwell-Gauss equation
+In this chapter, we're gonna look into only one equation: the Maxwell-Gauss equation.
+$$
+\vec\nabla\cdot\vec E=\frac{\rho}{\varepsilon_0}
 $$
 
 # Resources used and licenses
